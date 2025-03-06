@@ -10,7 +10,7 @@ int main(void)
     printf("Select an ASCII Theme for the Menu:\n");
     printf("1. Default\n");
     printf("2. Dark\n");
-    printf("3. Fun\n");
+    printf("3. Tall\n");
     printf("0. Exit\n");
     printf("Enter your choice: ");
     scanf("%d", &theme_selection);
@@ -31,7 +31,7 @@ int main(void)
             selected_theme = THEME_DARK;
             break;
         case 3:
-            selected_theme = THEME_FUN;
+            selected_theme = THEME_TALL;
             break;
         default:
             printf("Invalid selection, using default theme.\n");

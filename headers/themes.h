@@ -6,7 +6,7 @@
 typedef enum {
     THEME_DEFAULT,
     THEME_DARK,
-    THEME_FUN
+    THEME_TALL
 } Theme;
 
 /**
