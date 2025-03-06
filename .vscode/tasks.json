@@ -1,0 +1,30 @@
+{
+        "version": "2.0.0",
+        "tasks": [
+            {
+                "label": "Build NameColor Generator",
+                "type": "shell",
+                "command": "gcc",
+                "args": [
+                    "-Wall",
+                    "-Wextra",
+                    "-Werror",
+                    "-Iheaders",
+                    "main.c",
+                    "functions/color_conversion.c",
+                    "functions/input_handling.c",
+                    "functions/theme.c",
+                    "-o",
+                    "namecolor"
+                ],
+                "group": {
+                    "kind": "build",
+                    "isDefault": true
+                },
+                "problemMatcher": [
+                    "$gcc"
+                ]
+            }
+        ]
+    }
+    
